@@ -1,31 +1,3 @@
-'''
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress INFO logs
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'  # Optional: disable oneDNN
-
-from BuildingCNN import model
-from PreprocessingData import train_generator, validation_generator
-
-total_train_samples = sum(len(files) for _, _, files in os.walk("/content/fer2013_split/test"))
-batch_size = 64 
-total_validation_samples = sum(len(files) for _, _, files in os.walk("/content/fer2013_split/validation"))
-
-
-emotion_model = model.fit(
-       train_generator,
-       steps_per_epoch = total_train_samples//batch_size,
-       epochs=50,
-       verbose=1,
-       validation_data=validation_generator,
-       validation_steps=total_validation_samples//batch_size  # Use the length of the generator
-)
-
-model_json = model.to_json()
-with open("model.json", "w") as json_file:
-    json_file.write(model_json)
-model.save_weights("model.weights.h5")
-'''
-
 from BulidingCNN import model
 from PreprocessingData import train_generator,validation_generator
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
