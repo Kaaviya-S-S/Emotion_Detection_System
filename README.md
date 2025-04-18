@@ -1,5 +1,5 @@
 # 🎭 Real-Time Emotion Detection System
-This project presents a real-time emotion detection system using Convolutional Neural Networks (CNN) enhanced with Uniform Local Binary Patterns (uLBP) for robust facial feature extraction. The system is designed with data augmentation techniques to improve model generalization, making it highly applicable in human-computer interaction and mental health monitoring domains.  
+This project presents a real-time emotion detection system using **Convolutional Neural Networks (CNN) enhanced with Uniform Local Binary Patterns (uLBP)** for robust facial feature extraction. The system is designed with data augmentation techniques to improve model generalization, making it highly applicable in human-computer interaction and mental health monitoring domains.  
 
 ---
 
@@ -41,14 +41,16 @@ python CNNModel.py
 ``` bash
 python TestingModel.py
 ```
+---
+
+## 📄 Paper Reference
+📝 The original research paper is included as paper.pdf in this repository for reference.  
 
 ---
 
-**📃 License**  
+## 📃 License  
 ⚖️This project is licensed under the MIT License – Feel free to explore, modify, and enhance!  
 
 ---
-
-📄 *The original research paper **(paper.pdf)** is included in this repository for more reference*
 
 
