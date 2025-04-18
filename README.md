@@ -44,7 +44,7 @@ python TestingModel.py
 ---
 
 ## 📄 Paper Reference
-📝 The original research paper is included as paper.pdf in this repository for reference.  
+📝 The original research paper is included as *paper.pdf* in this repository for reference.  
 
 ---
 
