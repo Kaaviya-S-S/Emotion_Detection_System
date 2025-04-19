@@ -7,7 +7,7 @@ This project presents a real-time emotion detection system using **Convolutional
 - 🎞️ Real-time facial emotion recognition using webcam input  
 - 🧠 CNN architecture optimized for emotion classification  
 - 🔄 uLBP integration for texture-based facial feature enhancement  
-- 🌐 Data augmentation to prevent overfitting and improve accuracy
+- 📈 Data augmentation to prevent overfitting and improve accuracy
 - 🛠️ Built using Python, TensorFlow, and OpenCV
    
 ---
